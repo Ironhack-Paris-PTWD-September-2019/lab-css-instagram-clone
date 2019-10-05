@@ -7,4 +7,99 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: pink;
+  
+}
+
+all-items {
+  margin: auto;
+  padding: 50px;
+}
+
+#main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#image {
+  //border: 1px solid blue;
+  width: 30%;
+  margin: auto;
+
+}
+
+#content {
+  //border: 1px solid red;
+  width: 60%;
+  margin: auto;
+}
+
+header {
+  //border: 1px solid red;
+}
+
+#header-insta {
+  display: flex;
+  align-items: center;
+}
+
+#home-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  height: 30px; 
+  background: #1c5380;
+  color: white;
+}
+
+
+#login {
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+
+#container-capture {
+  background: white;
+  padding: 50px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 2em;
+}
+
+
+h2 {
+  font-size: 1em;
+  font-style: none;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+li {
+  margin-left: 30px;
+  color: #1c5380;
+ 
+}
+
+aside {
+  margin-left: 50px;
+  color: grey;
+  
 }
