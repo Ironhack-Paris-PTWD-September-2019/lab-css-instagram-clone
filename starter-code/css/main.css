@@ -29,6 +29,9 @@ justify-content:space-between;
   margin : 0 auto;
 
 }
+#middle{
+  margin: 9px 0;
+}
 
 #phones {
   padding-right:15px; 
@@ -92,10 +95,7 @@ justify-content:space-between;
   letter-spacing: 1.1px;
 }
 
-.text br {
-  margin-top: 17px;
-  display: block;
-}
+
 footer ul {
   list-style: none;
   display:flex;
@@ -106,6 +106,7 @@ footer ul {
   color:#06365f;
   font-weight:bold;
   position :relative; 
+  padding-left:0;
   
 }
 
