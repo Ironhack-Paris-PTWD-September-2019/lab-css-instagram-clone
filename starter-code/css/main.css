@@ -4,7 +4,74 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
+*{
+  box-sizing: border-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#06365f 0%, #1c5380 30%, white 30%, white 100%);
 }
+
+.everything {
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+  margin-top: 10%;
+
+}
+
+#description {
+  width: 600px; 
+  height: 560px;
+  margin-left: 5%;
+}
+
+.logos {
+  display: flex; 
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  
+}
+
+.contentLogIn {
+  display: flex;
+  align-items: center;
+}
+
+.logIn {
+  font-size: 16px; 
+  background: linear-gradient(to top, #1e598b, #1d5888, #1d5685, #1c5583, #1c5380);
+  color: white;
+}
+
+.logIn, .home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #06365f;
+  line-height: 0.7;
+  padding-left: 30px;
+}
+
+.content {
+  background: white;
+}
+.content, p {
+  font-size: 21px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.badge-iphone, .badge-android {
+  padding-left: 30px;
+}
+
