@@ -9,7 +9,13 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-color: grey;
+  background-color: white;
+}
+
+header {
+  background: linear-gradient(#4c7397, #2f577b);
+  height: 45vh;
+  position: relative;
 }
 
 section {
@@ -18,16 +24,20 @@ section {
   margin-right: auto;
   margin-top: 110px;
   margin-bottom: 50px;
-  width: 80%;
+  width: 78%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .colonne1 {
-  margin-right: 5%;
+  margin-right: 6%;
   width: 40%;
 }
 
 .colonne1 img {
-  height: 110%;
+  height: 95%;
 }
 
 .colonne2 {
@@ -39,26 +49,41 @@ section {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.nav > img {
+  height: 95px;
 }
 
 .nav button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 20%;
+  width: 22%;
   padding: 2%;
+  border: 2px solid #2f577b;
+  border-radius: 5px;
+  background: linear-gradient(#4c7397, #3b668b);
+}
+
+.nav button img {
+  height: 30px;
 }
 
 .nav button p {
   margin: 0;
-  font-size: 120%;
+  font-size: 200%;
+  font-weight: 500;
+  color: white;
 }
 
 .text-bloc {
   background-color: white;
-  padding: 40px;
+  padding: 42px;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px grey;
+  box-shadow: -150px -150px 5px -148px rgba(53, 53, 53, 0.3), 150px -150px 5px -148px rgba(53, 53, 53, 0.3);
+  /*box-shadow: 0px 0px 5px grey; box-shadow: h-pos v-pos (blur) (spread) (color) (inset);*/
 }
 
 .text-bloc h1 {
@@ -72,6 +97,12 @@ section {
   font-size: 130%;
 }
 
+.text-bloc img {
+  margin-top: 25px;
+  margin-right: 15px;
+  height: 65px;
+}
+
 .text-bloc span {
   font-weight: 500;
 }
@@ -82,9 +113,19 @@ footer {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 500px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #1c5380;
+  text-transform: uppercase;
 }
 
 footer ul li {
   display: inline;
-  font-size: 120%;
+  font-size: 90%;
+  padding-right: 18px;
+}
+
+li span {
+  color: #BFBFBF;
 }
