@@ -9,7 +9,12 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  background: rgb(47,134,235);
+background: linear-gradient(180deg, rgba(47,134,235,1) 39%, rgba(47,81,235,1) 39%, rgba(255,255,255,1) 39%);
+}
 
+#logo {
+  height: 50px;
 }
 
 .ecran{
@@ -17,7 +22,6 @@ display: flex;
 width: 70vw;
 height: 80vh;
 margin: auto;
-background-color: aquamarine;
 flex-direction: column;
 }
 
@@ -35,6 +39,12 @@ flex-direction: column;
 
 .bloc-blanc{
   background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+h1{
+  color: #2f86eb;
 }
 
 .store{
@@ -46,4 +56,5 @@ flex-direction: column;
   display: flex;
   width: 70vw;
   font-weight: bold;
+  color: #2f86eb;
 }
