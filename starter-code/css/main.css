@@ -1,10 +1,124 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: 
 */
+html{
+  width: 100%;
+}
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+body{
+  font: 200 16px/1.5 "Helvetica Neue", 
+  Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+}
+
+header{ 
+  background-color: #1c5380;
+  height:20em;
+}
+
+main{
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.main-items-container{
+  display: flex;
+  position: relative;
+  bottom: 150px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.phone-container{
+  width: 30%;
+}
+
+.phone-container img{
+  height: 540px;
+  padding-left: 80px;
+}
+
+.instagram-logo-main-container{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 50%;
+  height: 20%;
+  box-shadow: 0 50px 50px rgba(0,0,0,0.25), 0 50px 50px rgba(0,0,0,0.22);
+  border-radius: 20px;
+  padding: 46px 19px 25px 9px;
+  margin: 10px;
+}
+
+  button{
+  background-color: #1c5380;
+  color: white;
+  font-weight: bolder;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3px;
+  border-style: none;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+  .second-part-instagram-container h2{
+    color: #003366; 
+    font-weight: bold;
+}
+
+  .second-part-instagram-container span{
+   font-weight: bolder;
+}
+ 
+  .second-part-instagram-container{
+  width: 80%;
+  align-self: center;
+}
+
+.logo-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-header img{
+  width: 250px;
+}
+
+.login-button img{
+  width: 30px;
+}
+
+.footer-logo-container{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  padding-top: 14px;
+}
+
+.apple-store-icon {
+  padding-right: 20px;
+}
+
+footer {
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content:space-between;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-items {
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.copy-right {
+  color: gray;
+  font-weight: bold;
 }
