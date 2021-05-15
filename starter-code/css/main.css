@@ -7,4 +7,74 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: lightpink
+}
+
+nav ul {
+  display: inline;
+  line-height: 90px;
+  padding:0 1em;
+  color:blue;
+  text-align: center;
+}
+
+.grandcarre {
+  display:flex;
+  padding-top: 140px;
+  justify-content: center;  
+  padding-left:50px;
+}
+
+.moyencarre{
+  margin-left: 50px;
+}
+
+.carre{
+  background: white;
+  width: 450px;
+  margin-left: 400;
+  padding :10px
+}
+
+.header{
+  background: blue;
+}
+
+
+.lesbadges{
+  margin-left:-70px;
+  margin-top:10px;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.enbas{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.insta{
+  color: grey;
+}
+
+.capture{
+  color: blue;
+}
+
+.enbas{
+  margin-left:200px;
+}
+
+.button{
+  background-color: blue;
+  color: white;
+  margin-left: 30px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center
+}
+
+.deuxlogo{
+  display: flex;
+  align-items: center;
 }
