@@ -7,4 +7,94 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#06365f 0%,#06365f 40%, white 40%, white 100%)
+  /*bbackground:#06365f linear-gradient(180deg, rgba(91,126,156,1) 0%, rgba(60,98,133,1) 38%, rgba(47,90,128,1) 38%, rgba(92,126,155,1) 38%, rgba(244,245,247,1) 38%, rgba(253,253,253,1) 38%, white 100%) top left repeat-x;*/
+}
+#instagramContent{
+  display:flex; 
+  margin-top: 10%; 
+  justify-content: center;
+}
+#instagramContent img{
+  height: 90%;
+}
+.brandHome{
+  display:flex; 
+  background-color: #06365f;
+  background-size:cover; 
+  color: white;
+  padding-bottom: 10px; 
+}
+.brandHome > img {
+  height:30px; 
+  width:90px; 
+}
+
+.home{
+  width:20%; 
+  height:30px; 
+  margin-left:auto;
+  padding:10px 10px;  
+  margin-bottom: auto;   
+  border: 1px solid #06365f;
+  border-radius: 10px;
+  background-color: #1c5380; 
+}
+
+.home a{
+  background-color: #1c5380;
+  color:white; 
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;   
+}
+
+.textInsta{
+  width: 40%;
+  height: 90%;
+  border:1px solid (#1c5380 0%,#1c5380 30%, white 30%, white 100%); 
+  border-radius: 10px; 
+  text-align: left; 
+  background: linear-gradient(#06365f 0%,#06365f 40%, white 40%, white 100%)
+  color:grey; 
+  
+}
+.textInsta h2{
+  color: #06365f;
+  padding-left: 40px;  
+}
+.textInsta p {
+  font-size: 0,5em;
+  padding-left: 40px; 
+}
+.textInsta > img{
+  align-items: left; 
+  background-color: #06365f; 
+}
+.text{
+  border-radius: 10px;
+  border: 1px solid white;
+  border-bottom: none; 
+  background-color: white;
+}
+#buttons{
+  padding-left: 40px; 
+}
+
+footer ul{ 
+  display: flex; 
+  color: #1c5380; 
+  background-color: white;
+  list-style: none;  
+  justify-content: center;
+  margin-left:auto;
+  padding: 0; 
+
+}
+footer ul li{
+  padding-left: 10px; 
+}
+.copyRight{
+  color: grey; 
 }
