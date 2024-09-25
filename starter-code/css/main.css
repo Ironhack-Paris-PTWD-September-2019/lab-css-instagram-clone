@@ -7,4 +7,102 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#06365f 0%,
+  #1c5380 40%,
+  white 40%,
+  white 100%
+  );
+  
+}
+
+#central {
+display: flex;
+flex-direction: row;
+}
+
+#container {
+  width: 40%;
+}
+
+#footer{
+  display:flex;
+  flex-direction: row;
+  
+}
+
+#navend{
+  text-align:center;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 0.8em;
+  
+}
+
+#image{
+  margin-left:5%;
+  margin-right:5%;
+  height: 600px;
+}
+
+#description{
+  padding: 3%;
+  margin-top: 2%;
+  background:white;
+  border: 2px solid #06365f;
+  border-radius: 0.5em;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #06365f, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#button{
+  text-align:center;
+  margin-top: 8%;
+}
+
+#central{
+  margin-top: 10%;
+  justify-content: center;
+}
+
+#navend >a {
+  text-decoration: none;
+  color: #06365f;
+  margin-right: 2%;
+
+}
+
+h2{
+  color: #06365f;
+  font-size: 2em;
+  width: 75%;
+}
+
+#descriptiontext > span{
+  font-weight: bold;
+}
+
+#descriptiontext {
+  font-size: 1em;
+}
+
+#titleimg{
+  display:flex;
+  flex-direction: row;
+}
+
+#ti2{
+  margin-left:auto;
+  margin-top:5%;
+}
+
+#ti2 >a{
+color: white;
+text-decoration: none;
 }
